@@ -1,0 +1,57 @@
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.banner {
+  background-color: green;
+  border: 5px solid black;
+  height: 170px;
+
+  position: relative;
+  top: 10px;
+}
+
+.logo {
+  width: 110px;
+  height: 110px;
+  background-color: black;
+  border: 5px solid red;
+
+  position: absolute;
+  bottom: -30px;
+  left: 30px;
+}
+
+.left {
+  width: calc(100% - 230px);
+  border: 5px solid black;  
+  background-color: #00bcd4;
+  height: 500px;
+  margin-top: 50px;
+}
+
+.padding {
+  background-color: yellow;
+}
+
+.bottom {
+  text-align: center;
+}
+
+.right {
+  background-color: pink;
+  border: 5px solid black;
+  width: 200px;
+  height: 300px;
+
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+}
+
+.relative {
+  background-color: yellow;
+  width: 500px;
+  position: relative;
+}
